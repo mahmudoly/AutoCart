@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="AutoCart"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="80dp"
+        android:textStyle="bold"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:fontFamily="cursive"/>
+
+
+    <Button
+        android:id="@+id/productBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Product"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="normal"
+        android:layout_weight="1"
+        android:layout_margin="50dp"/>
+
+    <Button
+        android:id="@+id/cartBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="Shopping Cart"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:textStyle="normal"
+        android:layout_weight="1"
+        android:layout_margin="50dp"/>
+
+</LinearLayout>
